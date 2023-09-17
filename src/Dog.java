@@ -16,21 +16,17 @@ public class Dog extends Animal {
         this.numberOfFriends = numberOfFriends;
     }
 
-
     public void setFavoriteFood(String favoriteFood) {
         this.favoriteFood = favoriteFood;
     }
-
 
     public void setFavoriteToy(String favoriteToy) {
         this.favoriteToy = favoriteToy;
     }
 
-
     public void setBreed(String breed) {
         this.breed = breed;
     }
-
 
     public void setNumberOfFriends(int numberOfFriends) {
         this.numberOfFriends = numberOfFriends;

@@ -74,7 +74,5 @@ public class Main {
             default ->
                     System.out.println("I know you know you shouldn't choose something else than dog, cat or hamster.");
         }
-
-
     }
 }

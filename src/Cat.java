@@ -13,7 +13,7 @@ public class Cat extends Animal {
         this.dislikedFood = dislikedFood;
         this.color = color;
     }
-    
+
     public void setNumberOfDestroyedThings(int numberOfDestroyedThings) {
         this.numberOfDestroyedThings = numberOfDestroyedThings;
     }
@@ -22,11 +22,9 @@ public class Cat extends Animal {
         this.dislikedFood = dislikedFood;
     }
 
-
     public void setColor(String color) {
         this.color = color;
     }
-
 
     public String catIntroduction() {
         return String.format("Hello. My name is %s. I am %d years old and my hair color is %s. I already destroyed %d things and I don't like %s.", getName(), getAge(), color, numberOfDestroyedThings, dislikedFood);
